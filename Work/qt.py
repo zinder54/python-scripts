@@ -25,8 +25,8 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
         menubar = self.menuBar()
         fileMenu = menubar.addMenu('&File')
-        fileMenu.addAction(OpenFile)
-        fileMenu.addAction(SaveFile)
+        self.fileMenu.addAction(OpenFile)
+        self.fileMenu.addAction(SaveFile)
 
 
     def file_open(self):
