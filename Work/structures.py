@@ -69,9 +69,17 @@ L9 = Label(app,text="Length under test",
             padx=0,).grid(row=2, column=5)
 E9 = Entry(app).grid(row=3,column=5)
 
+LB1 = Label(app, text="Span/",
+            pady=0,
+            padx=0).grid(row=5,column=0)
+EB1 = Entry(app).grid(row=5,column=1)
+EB2 = Entry(app).grid(row=5,column=2)
+EB3 = Entry(app).grid(row=5,column=3)
+EB4 = Entry(app).grid(row=5,column=4)
+EB5 = Entry(app).grid(row=5,column=5)
 
-
-
+LB2 = Label(app, text="Bedding load",
+            pady=0, padx=0).grid(row=6,column=0)
 
 #height  = 10
 #width = 10
